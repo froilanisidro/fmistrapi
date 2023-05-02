@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
         providerOptions: {
           accessKeyId: env('AKIAXDKPLFIG4JKKMJGX'),
           secretAccessKey: env('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'),
-          region: env('ap-east-1'),
+          region: env('ap-east-1c'),
           params: {
               Bucket: env('fmibucket'),
           },
